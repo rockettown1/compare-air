@@ -12,7 +12,7 @@ class App extends Component {
     userInput: "",
     search: ""
   };
-  //grab cities to populate autocomplete search before components are rendered
+  //grab cities to populate autocomplete search after components are mounted
   async componentDidMount() {
     const citiesURL = "https://api.openaq.org/v1/cities?country=GB";
     const citiesResponse = await fetch(citiesURL);
