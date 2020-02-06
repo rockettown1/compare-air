@@ -1,0 +1,23 @@
+.welcome {
+  width: 100vw;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+
+.welcome p {
+  margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .welcome {
+    margin-top: 50px;
+  }
+
+  .welcome > p {
+    padding: 0 40px;
+    text-align: center;
+  }
+}

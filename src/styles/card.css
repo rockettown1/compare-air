@@ -1,0 +1,49 @@
+.city-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+h3,
+p {
+  margin: 2px;
+}
+
+#date {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+}
+#location {
+  color: #693aaa;
+  font-weight: 800;
+}
+#city {
+  font-size: 10px;
+}
+#values-container {
+  display: flex;
+  font-weight: 600;
+  font-size: 12px;
+}
+#value {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#close-icon {
+  height: 20px;
+  position: absolute;
+}
