@@ -33,7 +33,6 @@ const Autocomplete = ({ filteredSuggestions, showSuggestions, userInput, handleC
           type="text"
           placeholder="Enter city name..."
           onChange={handleChange}
-          onKeyDown={onKeyDown}
           value={userInput}
         />
       </div>
