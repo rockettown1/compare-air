@@ -71,7 +71,6 @@ class App extends Component {
 
   //handle removing a card when user clicks the X
   handleRemove = index => {
-    console.log(index);
     let result = [...this.state.data];
     result.splice(index, 1);
     this.setState({ data: result });
