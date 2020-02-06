@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/compare-air/static/css/main.daa0c805.chunk.css",
+    "main.js": "/compare-air/static/js/main.deee5c86.chunk.js",
+    "main.js.map": "/compare-air/static/js/main.deee5c86.chunk.js.map",
+    "runtime-main.js": "/compare-air/static/js/runtime-main.0f6fc234.js",
+    "runtime-main.js.map": "/compare-air/static/js/runtime-main.0f6fc234.js.map",
+    "static/js/2.ed323aca.chunk.js": "/compare-air/static/js/2.ed323aca.chunk.js",
+    "static/js/2.ed323aca.chunk.js.map": "/compare-air/static/js/2.ed323aca.chunk.js.map",
+    "index.html": "/compare-air/index.html",
+    "precache-manifest.5e5ef6dab1ee05d201e86eda15430936.js": "/compare-air/precache-manifest.5e5ef6dab1ee05d201e86eda15430936.js",
+    "service-worker.js": "/compare-air/service-worker.js",
+    "static/css/main.daa0c805.chunk.css.map": "/compare-air/static/css/main.daa0c805.chunk.css.map",
+    "static/js/2.ed323aca.chunk.js.LICENSE.txt": "/compare-air/static/js/2.ed323aca.chunk.js.LICENSE.txt",
+    "static/media/close.svg": "/compare-air/static/media/close.ce5bbb85.svg",
+    "static/media/magnifying-glass.svg": "/compare-air/static/media/magnifying-glass.8617f4fa.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f6fc234.js",
+    "static/js/2.ed323aca.chunk.js",
+    "static/css/main.daa0c805.chunk.css",
+    "static/js/main.deee5c86.chunk.js"
+  ]
+}
