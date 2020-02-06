@@ -6,8 +6,7 @@ import Close from "../assets/icons/close.svg";
 const Card = ({ data, handleRemove }) => {
   // format date into readable form eg: "Updated an hour ago"
   const parseDate = data => {
-    let formatted = moment(data).fromNow();
-    return formatted;
+    return moment(data).fromNow();
   };
 
   return (
