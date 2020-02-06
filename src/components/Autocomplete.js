@@ -3,7 +3,7 @@ import "../styles/autocomplete.css";
 import MagGlass from "../assets/icons/magnifying-glass.svg";
 
 //All props passed from App --> Welcome --> here
-const Autocomplete = ({ filteredSuggestions, showSuggestions, userInput, handleChange, handleClick, onKeyDown }) => {
+const Autocomplete = ({ filteredSuggestions, showSuggestions, userInput, handleChange, handleClick }) => {
   //creating basic component for list of suggestions in autocomplete
   let suggestionsListComponent;
   if (showSuggestions && userInput) {
